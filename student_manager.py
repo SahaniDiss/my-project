@@ -8,5 +8,8 @@ class StudentManager:
         student = Student(name, age)
         self.students.append(student)
 
+    def remove_student(self, name):
+        self.students = [student for student in self.students if student.name != name]
+
     def get_students(self):
         return self.students
