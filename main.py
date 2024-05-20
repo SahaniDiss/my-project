@@ -6,6 +6,7 @@ if __name__ == "__main__":
     # Adding students
     manager.add_student("Alice", 20)
     manager.add_student("Bob", 22)
+    manager.add_student("Charlie", 25)
 
     # To Retrieve and print students
     students = manager.get_students()
